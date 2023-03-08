@@ -1,5 +1,9 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Grid from "../components/Grid";
+import Price from "../components/Price";
+import Newsletter from "../components/Newsletter";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +16,10 @@ export default function Home() {
       </Head>
 
       <Navbar />
+      <Grid />
+      <Price />
+      <Newsletter />
+      <Contact />
     </div>
   );
 }
