@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 import Grid from "../components/Grid";
 import Price from "../components/Price";
 import Newsletter from "../components/Newsletter";
@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
+      <Hero />
       <Grid />
       <Price />
       <Newsletter />
