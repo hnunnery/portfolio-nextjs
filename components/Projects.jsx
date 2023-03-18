@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import { SiVuedotjs, SiNuxtdotjs, SiVuetify } from "react-icons/si";
 
 const projects = [
   {
@@ -8,10 +7,10 @@ const projects = [
       "Authenticated users can create, read, update, and delete ratings for shows",
     imageUrl:
       "https://res.cloudinary.com/missionwebdev/image/upload/c_fit,h_1216/v1679155832/BingeWorthy/Screenshot_2023-03-18_at_12.02.51_PM.png",
-    badgeOne: "/../public/assets/skills/vue.png",
-    badgeTwo: "/../public/assets/skills/nuxt.png",
-    badgeThree: "/../public/assets/skills/vuetify.png",
-    badgeFour: "/../public/assets/skills/firebase.png",
+    badgeOne: "/assets/skills/vue.png",
+    badgeTwo: "/assets/skills/nuxt.png",
+    badgeThree: "/assets/skills/vuetify.png",
+    badgeFour: "/assets/skills/firebase.png",
   },
   {
     name: "Stealth Entry CyberSecurity Solutions",
@@ -19,10 +18,10 @@ const projects = [
       "Created this website for a customer using VueJS and the NuxtJS framework",
     imageUrl:
       "https://res.cloudinary.com/missionwebdev/image/upload/v1551139322/StealthEntry/main.jpg",
-    badgeOne: "/../public/assets/skills/vue.png",
-    badgeTwo: "/../public/assets/skills/nuxt.png",
-    badgeThree: "/../public/assets/skills/vuetify.png",
-    badgeFour: "/../public/assets/skills/firebase.png",
+    badgeOne: "/assets/skills/vue.png",
+    badgeTwo: "/assets/skills/nuxt.png",
+    badgeThree: "/assets/skills/vuetify.png",
+    badgeFour: "/assets/skills/firebase.png",
   },
   {
     name: "Veterans of War Aid Foundation",
@@ -30,10 +29,10 @@ const projects = [
       "Created this website as a volunteer developer for a non-profit organization",
     imageUrl:
       "https://res.cloudinary.com/missionwebdev/image/upload/v1553647520/VOWAID/vowaid-meta-card.jpg",
-    badgeOne: "/../public/assets/skills/vue.png",
-    badgeTwo: "/../public/assets/skills/nuxt.png",
-    badgeThree: "/../public/assets/skills/vuetify.png",
-    badgeFour: "/../public/assets/skills/firebase.png",
+    badgeOne: "/assets/skills/vue.png",
+    badgeTwo: "/assets/skills/nuxt.png",
+    badgeThree: "/assets/skills/vuetify.png",
+    badgeFour: "/assets/skills/firebase.png",
   },
 ];
 
@@ -73,7 +72,7 @@ export default function Projects() {
                 <li>
                   <Image
                     className="h-8 w-auto"
-                    src="/../public/assets/skills/html.png"
+                    src="/assets/skills/html.png"
                     alt=""
                     height="100"
                     width="100"
@@ -82,7 +81,7 @@ export default function Projects() {
                 <li>
                   <Image
                     className="h-8 w-auto"
-                    src="/../public/assets/skills/css.png"
+                    src="/assets/skills/css.png"
                     alt=""
                     height="100"
                     width="100"
@@ -91,7 +90,7 @@ export default function Projects() {
                 <li>
                   <Image
                     className="h-8 w-auto"
-                    src="/../public/assets/skills/javascript.png"
+                    src="/assets/skills/javascript.png"
                     alt=""
                     height="100"
                     width="100"

@@ -32,7 +32,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <Image
                 className="h-8 w-auto"
-                src="/../public/assets/images/FSWA-Brackets-Indigo.png"
+                src="/assets/images/FSWA-Brackets-Indigo.png"
                 alt="Full Stack Web Apps"
                 height="100"
                 width="100"
@@ -138,7 +138,7 @@ export default function Example() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <Image
-                src="/../public/assets/images/FSWA-Wide-White.png"
+                src="/assets/images/FSWA-Wide-White.png"
                 alt="logo"
                 height="500"
                 width="2000"
