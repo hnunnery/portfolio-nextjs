@@ -41,7 +41,7 @@ export default function Example() {
           Contact Hunter Today
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Can't go without showcasing contact form functionality.
+          Can&apos;t go without showcasing contact form functionality.
         </p>
       </div>
       <form
