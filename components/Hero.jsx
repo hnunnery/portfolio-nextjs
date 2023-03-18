@@ -2,6 +2,13 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import {
+  FaGithubSquare,
+  FaLinkedin,
+  FaTwitterSquare,
+  FaEnvelope,
+  FaYoutubeSquare,
+} from "react-icons/fa";
 
 const navigation = [
   { name: "Projects", href: "#" },
@@ -25,8 +32,8 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <Image
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                alt=""
+                src="/../public/assets/images/FSWA-Brackets-Indigo.png"
+                alt="Full Stack Web Apps"
                 height="100"
                 width="100"
               />
@@ -53,11 +60,6 @@ export default function Example() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
         </nav>
         <Dialog
           as="div"
@@ -72,8 +74,8 @@ export default function Example() {
                 <span className="sr-only">Your Company</span>
                 <Image
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                  alt=""
+                  src="/../public/assets/images/FSWA-Brackets-Indigo.png"
+                  alt="Full Stack Web Apps"
                   height="100"
                   width="100"
                 />
@@ -89,7 +91,7 @@ export default function Example() {
             </div>
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/25">
-                <div className="space-y-2 py-6">
+                <div className="space-y-2 py-8">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
@@ -99,14 +101,6 @@ export default function Example() {
                       {item.name}
                     </a>
                   ))}
-                </div>
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                  >
-                    Log in
-                  </a>
                 </div>
               </div>
             </div>
@@ -143,36 +137,55 @@ export default function Example() {
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                Data to enrich your online business
-              </h1>
+              <Image
+                src="/../public/assets/images/FSWA-Wide-White.png"
+                alt="logo"
+                height="500"
+                width="2000"
+              />
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                My name is Hunter Nunnery. &nbsp;
+                I&apos;m&nbsp;a&nbsp;Web&nbsp;Application&nbsp;Developer.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                >
-                  Get started
+                <a href="https://github.com/hnunnery" target="_blank">
+                  <FaGithubSquare
+                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    size="50"
+                  />
                 </a>
                 <a
-                  href="#"
-                  className="text-sm font-semibold leading-6 text-white"
+                  href="https://www.linkedin.com/in/hunternunnery/"
+                  target="_blank"
                 >
-                  Learn more <span aria-hidden="true">→</span>
+                  <FaLinkedin
+                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    size="50"
+                  />
+                </a>
+                <a href="mailto:hunter.nunnery@outlook.com?subject=Software Development">
+                  <FaEnvelope
+                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    size="60"
+                  />
+                </a>
+                <a href="https://twitter.com/HunterNunnery" target="_blank">
+                  <FaTwitterSquare
+                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    size="50"
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/c/HunterNunnery"
+                  target="_blank"
+                >
+                  <FaYoutubeSquare
+                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    size="50"
+                  />
                 </a>
               </div>
             </div>
-            <Image
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-              alt="App screenshot"
-              width={2432}
-              height={1442}
-              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24"
-            />
           </div>
         </div>
         <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
