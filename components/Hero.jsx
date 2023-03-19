@@ -11,10 +11,10 @@ import {
 } from "react-icons/fa";
 
 const navigation = [
-  { name: "Projects", href: "#" },
-  { name: "Stack", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Projects", href: "#projects" },
+  { name: "Stack", href: "#stack" },
+  { name: "About", href: "#about" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Example() {
@@ -29,11 +29,11 @@ export default function Example() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Full Stack Apps</span>
               <Image
                 className="h-8 w-auto"
                 src="/assets/images/FSWA-Brackets-Indigo.png"
-                alt="Full Stack Web Apps"
+                alt="mini logo"
                 height="100"
                 width="100"
               />
