@@ -28,7 +28,7 @@ export default function Example() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="#top" className="-m-1.5 p-1.5">
               <span className="sr-only">Full Stack Apps</span>
               <Image
                 className="h-8 w-auto"
@@ -70,7 +70,7 @@ export default function Example() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="#top" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <Image
                   className="h-8 w-auto"
@@ -97,6 +97,7 @@ export default function Example() {
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                      onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
                     </a>
@@ -108,7 +109,7 @@ export default function Example() {
         </Dialog>
       </header>
 
-      <div className="relative isolate pt-14">
+      <div className="relative isolate pt-14" id="top">
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
           <svg
             className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"

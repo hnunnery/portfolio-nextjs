@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Stack from "../components/Stack";
+import Blog from "../components/Blog";
 import Contact from "../components/Contact";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Projects />
       <Stack />
+      <Blog />
       <Contact />
     </div>
   );

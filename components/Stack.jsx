@@ -41,20 +41,20 @@ const frontEndSkills = [
 
 const backEndSkills = [
   {
-    name: "node",
-    badge: "/assets/skills/node.png",
-  },
-  {
-    name: "javascript",
-    badge: "/assets/skills/javascript.png",
-  },
-  {
     name: "firebase",
     badge: "/assets/skills/firebase.png",
   },
   {
-    name: "csharp",
-    badge: "/assets/skills/csharp.png",
+    name: "azure",
+    badge: "/assets/skills/azure.png",
+  },
+  {
+    name: "amplify",
+    badge: "/assets/skills/amplify.png",
+  },
+  {
+    name: "node",
+    badge: "/assets/skills/node.png",
   },
   {
     name: "dotnet",
@@ -65,16 +65,31 @@ const backEndSkills = [
     badge: "/assets/skills/sql.png",
   },
   {
-    name: "vue",
-    badge: "/assets/skills/vue.png",
+    name: "csharp",
+    badge: "/assets/skills/csharp.png",
   },
   {
-    name: "nuxtjs",
-    badge: "/assets/skills/nuxt.png",
+    name: "java",
+    badge: "/assets/skills/java.png",
   },
   {
-    name: "vuetify",
-    badge: "/assets/skills/vuetify.png",
+    name: "python",
+    badge: "/assets/skills/python.png",
+  },
+];
+
+const tools = [
+  {
+    name: "github",
+    badge: "/assets/skills/github.png",
+  },
+  {
+    name: "copilot",
+    badge: "/assets/skills/copilot.png",
+  },
+  {
+    name: "vscode",
+    badge: "/assets/skills/vscode.png",
   },
 ];
 
@@ -116,7 +131,7 @@ export default function Stack() {
           </div>
         </div>
       </div>
-      <div className="pt-12 pb-24 sm:pt-16 sm:pb-32">
+      <div className="py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
             <div className="mx-auto w-full max-w-xl lg:mx-0">
@@ -124,10 +139,14 @@ export default function Stack() {
                 Back End Stack
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-300">
-                I lean toward Backend-as-a-Service (BaaS) Cloud Solutions such as Firebase, Azure App Service, and AWS Amplify. 
+                I lean toward Backend-as-a-Service (BaaS) Cloud Solutions such
+                as Firebase, Azure App Service, and AWS Amplify.
               </p>
               <p className="mt-4 text-lg leading-8 text-gray-300">
-              I also have experience with API Development using Node.js and .NET framework. My past use of Python, Java, and C# makes me comfortable using any language and framework. I have the ability and desire to learn new technologies quickly.
+                I also have experience with API Development using Node.js and
+                .NET framework. My past use of Python, Java, and C# makes me
+                comfortable using any language and framework. I have the ability
+                and desire to learn new technologies quickly.
               </p>
             </div>
             <div className="mx-auto grid w-full max-w-xl grid-cols-3 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
@@ -137,6 +156,33 @@ export default function Stack() {
                     className="h-20 w-auto mx-auto"
                     src={skill.badge}
                     alt={skill.name}
+                    height="100"
+                    width="100"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="pt-12 pb-24 sm:pt-16 sm:pb-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
+            <div className="mx-auto w-full max-w-xl lg:mx-0">
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                Development Tools
+              </h2>
+              <p className="mt-4 text-lg leading-8 text-gray-300">
+                I use GitHub for version control and collaboration. The way GitHub CoPilot has sped up my development is amazing. I use VS Code as my IDE and I love the extensions that are available for it.
+              </p>
+            </div>
+            <div className="mx-auto grid w-full max-w-xl grid-cols-3 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
+              {tools.map((tool) => (
+                <div key={tools.name}>
+                  <Image
+                    className="h-20 w-auto mx-auto"
+                    src={tool.badge}
+                    alt={tool.name}
                     height="100"
                     width="100"
                   />
