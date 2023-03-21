@@ -32,7 +32,7 @@ export default function Example() {
               <span className="sr-only">Full Stack Apps</span>
               <Image
                 className="h-8 w-auto"
-                src="/assets/images/FSWA-Brackets-Indigo.png"
+                src="/assets/images/FSA-Brackets-White.png"
                 alt="mini logo"
                 height="100"
                 width="100"
@@ -74,7 +74,7 @@ export default function Example() {
                 <span className="sr-only">Your Company</span>
                 <Image
                   className="h-8 w-auto"
-                  src="/assets/images/FSWA-Brackets-Indigo.png"
+                  src="/assets/images/FSA-Brackets-White.png"
                   alt="Full Stack Web Apps"
                   height="100"
                   width="100"
@@ -151,7 +151,7 @@ export default function Example() {
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a href="https://github.com/hnunnery" target="_blank">
                   <FaGithubSquare
-                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
                     size="50"
                   />
                 </a>
@@ -160,19 +160,19 @@ export default function Example() {
                   target="_blank"
                 >
                   <FaLinkedin
-                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
                     size="50"
                   />
                 </a>
                 <a href="mailto:hunter.nunnery@outlook.com?subject=Software Development">
                   <FaEnvelope
-                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
                     size="60"
                   />
                 </a>
                 <a href="https://twitter.com/HunterNunnery" target="_blank">
                   <FaTwitterSquare
-                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
                     size="50"
                   />
                 </a>
@@ -181,7 +181,7 @@ export default function Example() {
                   target="_blank"
                 >
                   <FaYoutubeSquare
-                    className="text-indigo-500 hover:text-indigo-400 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
                     size="50"
                   />
                 </a>
