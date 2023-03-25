@@ -13,7 +13,7 @@ import {
 const navigation = [
   { name: "Projects", href: "#projects" },
   { name: "Stack", href: "#stack" },
-  { name: "About", href: "#about" },
+  { name: "Blog", href: "#blog" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -130,7 +130,7 @@ export default function Example() {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stopColor="#9089FC" />
-                <stop offset={1} stopColor="#FF80B5" />
+                <stop offset={1} stopColor="#1d4ed8" />
               </linearGradient>
             </defs>
           </svg>
@@ -148,44 +148,6 @@ export default function Example() {
                 My name is Hunter Nunnery. &nbsp;
                 I&apos;m&nbsp;a&nbsp;Web&nbsp;Application&nbsp;Developer.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a href="https://github.com/hnunnery" target="_blank">
-                  <FaGithubSquare
-                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
-                    size="50"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/hunternunnery/"
-                  target="_blank"
-                >
-                  <FaLinkedin
-                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
-                    size="50"
-                  />
-                </a>
-                <a href="mailto:hunter.nunnery@outlook.com?subject=Software Development">
-                  <FaEnvelope
-                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
-                    size="60"
-                  />
-                </a>
-                <a href="https://twitter.com/HunterNunnery" target="_blank">
-                  <FaTwitterSquare
-                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
-                    size="50"
-                  />
-                </a>
-                <a
-                  href="https://www.youtube.com/c/HunterNunnery"
-                  target="_blank"
-                >
-                  <FaYoutubeSquare
-                    className="text-blue-600 hover:text-blue-500 focus-visible:outline-offset-2 focus-visible:outline-white"
-                    size="50"
-                  />
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -209,7 +171,7 @@ export default function Example() {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stopColor="#9089FC" />
-                <stop offset={1} stopColor="#FF80B5" />
+                <stop offset={1} stopColor="#1d4ed8" />
               </linearGradient>
             </defs>
           </svg>

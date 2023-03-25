@@ -19,7 +19,7 @@ const frontEndSkills = [
   },
   {
     name: "nextjs",
-    badge: "/assets/skills/nextjs.png",
+    badge: "/assets/skills/next.png",
   },
   {
     name: "tailwindcss",
@@ -119,7 +119,7 @@ export default function Stack() {
               {frontEndSkills.map((skill) => (
                 <div key={frontEndSkills.name}>
                   <Image
-                    className="h-20 w-auto mx-auto"
+                    className="h-16 w-auto mx-auto"
                     src={skill.badge}
                     alt={skill.name}
                     height="100"
@@ -131,6 +131,7 @@ export default function Stack() {
           </div>
         </div>
       </div>
+
       <div className="py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
@@ -153,7 +154,7 @@ export default function Stack() {
               {backEndSkills.map((skill) => (
                 <div key={backEndSkills.name}>
                   <Image
-                    className="h-20 w-auto mx-auto"
+                    className="h-16 w-auto mx-auto"
                     src={skill.badge}
                     alt={skill.name}
                     height="100"
@@ -173,14 +174,17 @@ export default function Stack() {
                 Development Tools
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-300">
-                I use GitHub for version control and collaboration. The way GitHub CoPilot has sped up my development is amazing. I use VS Code as my IDE and I love the extensions that are available for it.
+                I use GitHub for version control and collaboration. The way
+                GitHub CoPilot has sped up my development is amazing. I use VS
+                Code as my IDE and I love the extensions that are available for
+                it.
               </p>
             </div>
             <div className="mx-auto grid w-full max-w-xl grid-cols-3 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
               {tools.map((tool) => (
                 <div key={tools.name}>
                   <Image
-                    className="h-20 w-auto mx-auto"
+                    className="h-16 w-auto mx-auto"
                     src={tool.badge}
                     alt={tool.name}
                     height="100"
@@ -192,7 +196,7 @@ export default function Stack() {
           </div>
         </div>
       </div>
-      <svg
+      {/* <svg
         className="absolute top-0 left-1/2 -z-10 h-[42.375rem] -translate-x-1/2 blur-3xl xl:-top-6"
         viewBox="0 0 1155 678"
         fill="none"
@@ -212,10 +216,10 @@ export default function Stack() {
             gradientUnits="userSpaceOnUse"
           >
             <stop stopColor="#9089FC" />
-            <stop offset={1} stopColor="#FF80B5" />
+            <stop offset={1} stopColor="#1d4ed8" />
           </linearGradient>
         </defs>
-      </svg>
+      </svg> */}
     </div>
   );
 }

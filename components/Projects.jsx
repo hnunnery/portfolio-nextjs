@@ -41,13 +41,13 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="bg-white py-24 sm:py-32" id="projects">
+    <div className="bg-gray-900 py-24 sm:py-32" id="projects">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
             Featured Projects
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-400">
             Some of my favorite projects that showcase the technologies,
             frameworks, and skills I use in my full staack web applications.
           </p>
@@ -66,10 +66,10 @@ export default function Projects() {
                   height="300"
                   width="400"
                 />
-                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-300">
                   {project.name}
                 </h3>
-                <p className="text-base leading-7 text-gray-600">
+                <p className="text-base leading-7 text-gray-400">
                   {project.description}
                 </p>
                 <ul role="list" className="mt-6 flex gap-x-6">

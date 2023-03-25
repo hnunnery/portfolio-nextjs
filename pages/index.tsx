@@ -4,6 +4,7 @@ import Projects from "../components/Projects";
 import Stack from "../components/Stack";
 import Blog from "../components/Blog";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Stack />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 }
