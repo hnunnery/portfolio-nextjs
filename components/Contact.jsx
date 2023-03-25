@@ -6,7 +6,7 @@ import {
 
 export default function Example() {
   return (
-    <div className="relative isolate bg-gray-900" id="contact">
+    <div className="relative isolate bg-gray-900 py-6" id="contact">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 pt-24 pb-20 sm:pt-32 lg:static lg:py-48 lg:px-8">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -66,7 +66,7 @@ export default function Example() {
                 </defs>
               </svg>
             </div>
-            <h2 className="text-3xl font-bold tracking-tight text-white">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-100">
               Get in touch
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">

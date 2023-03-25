@@ -95,12 +95,12 @@ const tools = [
 
 export default function Stack() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900" id="stack">
-      <div className="pt-24 pb-12 sm:pt-32 sm:pb-16">
+    <div className="relative isolate overflow-hidden bg-gray-900 py-12" id="stack">
+      <div className="py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
             <div className="mx-auto w-full max-w-xl lg:mx-0">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
                 Front End Stack
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-300">
@@ -132,11 +132,11 @@ export default function Stack() {
         </div>
       </div>
 
-      <div className="py-12 sm:py-16">
+      <div className="py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
             <div className="mx-auto w-full max-w-xl lg:mx-0">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
                 Back End Stack
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-300">
@@ -166,11 +166,11 @@ export default function Stack() {
           </div>
         </div>
       </div>
-      <div className="pt-12 pb-24 sm:pt-16 sm:pb-32">
+      <div className="py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
             <div className="mx-auto w-full max-w-xl lg:mx-0">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
                 Development Tools
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-300">

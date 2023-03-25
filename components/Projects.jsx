@@ -41,13 +41,13 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="bg-gray-900 py-24 sm:py-32" id="projects">
+    <div className="bg-gray-900 py-28" id="projects">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
             Featured Projects
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-400">
+          <p className="mt-6 text-lg leading-8 text-gray-300">
             Some of my favorite projects that showcase the technologies,
             frameworks, and skills I use in my full staack web applications.
           </p>
@@ -58,86 +58,88 @@ export default function Projects() {
         >
           {projects.map((project) => (
             <li key={project.name}>
-              <a href={project.siteUrl} target="_blank">
-                <Image
-                  className="aspect-[3/2] w-full rounded-2xl object-cover"
-                  src={project.imageUrl}
-                  alt=""
-                  height="300"
-                  width="400"
-                />
-                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-300">
-                  {project.name}
-                </h3>
-                <p className="text-base leading-7 text-gray-400">
-                  {project.description}
-                </p>
-                <ul role="list" className="mt-6 flex gap-x-6">
-                  <li>
-                    <Image
-                      className="h-8 w-auto"
-                      src="/assets/skills/html.png"
-                      alt=""
-                      height="100"
-                      width="100"
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className="h-8 w-auto"
-                      src="/assets/skills/css.png"
-                      alt=""
-                      height="100"
-                      width="100"
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className="h-8 w-auto"
-                      src="/assets/skills/javascript.png"
-                      alt=""
-                      height="100"
-                      width="100"
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className="h-8 w-auto"
-                      src={project.badgeOne}
-                      alt=""
-                      height="100"
-                      width="100"
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className="h-8 w-auto"
-                      src={project.badgeTwo}
-                      alt=""
-                      height="100"
-                      width="100"
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className="h-8 w-auto"
-                      src={project.badgeThree}
-                      alt=""
-                      height="100"
-                      width="100"
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className="h-8 w-auto"
-                      src={project.badgeFour}
-                      alt=""
-                      height="100"
-                      width="100"
-                    />
-                  </li>
-                </ul>
-              </a>
+              <div className="group relative">
+                <a href={project.siteUrl} target="_blank">
+                  <Image
+                    className="aspect-[3/2] w-full rounded-2xl object-cover"
+                    src={project.imageUrl}
+                    alt=""
+                    height="300"
+                    width="400"
+                  />
+                  <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-200 group-hover:text-indigo-500">
+                    {project.name}
+                  </h3>
+                  <p className="text-base leading-7 text-gray-400">
+                    {project.description}
+                  </p>
+                  <ul role="list" className="mt-6 flex gap-x-6">
+                    <li>
+                      <Image
+                        className="h-8 w-auto"
+                        src="/assets/skills/html.png"
+                        alt=""
+                        height="100"
+                        width="100"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className="h-8 w-auto"
+                        src="/assets/skills/css.png"
+                        alt=""
+                        height="100"
+                        width="100"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className="h-8 w-auto"
+                        src="/assets/skills/javascript.png"
+                        alt=""
+                        height="100"
+                        width="100"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className="h-8 w-auto"
+                        src={project.badgeOne}
+                        alt=""
+                        height="100"
+                        width="100"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className="h-8 w-auto"
+                        src={project.badgeTwo}
+                        alt=""
+                        height="100"
+                        width="100"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className="h-8 w-auto"
+                        src={project.badgeThree}
+                        alt=""
+                        height="100"
+                        width="100"
+                      />
+                    </li>
+                    <li>
+                      <Image
+                        className="h-8 w-auto"
+                        src={project.badgeFour}
+                        alt=""
+                        height="100"
+                        width="100"
+                      />
+                    </li>
+                  </ul>
+                </a>
+              </div>
             </li>
           ))}
         </ul>

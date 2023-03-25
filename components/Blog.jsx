@@ -23,7 +23,7 @@ const posts = [
     },
   },
   {
-    id: 1,
+    id: 2,
     title: "Java or JavaScript?",
     href: "#",
     description:
@@ -44,7 +44,7 @@ const posts = [
     },
   },
   {
-    id: 1,
+    id: 3,
     title: "React vs. Vue: Which is better for you?",
     href: "#",
     description:
@@ -68,13 +68,13 @@ const posts = [
 
 export default function Example() {
   return (
-    <div className="bg-gray-900 pt-14 pb-28 sm:pt-24 sm:pb-36" id="blog">
+    <div className="bg-gray-900 py-28" id="blog">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
             Articles from the Blog
           </h2>
-          <p className="mt-2 text-lg leading-8 text-gray-400">
+          <p className="mt-2 text-lg leading-8 text-gray-300">
             This has been a lot of fun to create and use.
           </p>
         </div>
@@ -96,7 +96,7 @@ export default function Example() {
               </div>
               <div className="max-w-xl">
                 <div className="mt-8 flex items-center gap-x-4 text-xs">
-                  <time dateTime={post.datetime} className="text-gray-400">
+                  <time dateTime={post.datetime} className="text-gray-300">
                     {post.date}
                   </time>
                   <a
@@ -107,7 +107,7 @@ export default function Example() {
                   </a>
                 </div>
                 <div className="group relative">
-                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-300 group-hover:text-gray-600">
+                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-200 group-hover:text-indigo-500">
                     <a href={post.href}>
                       <span className="absolute inset-0" />
                       {post.title}

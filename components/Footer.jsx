@@ -45,7 +45,7 @@ export default function Example() {
             <a
               key={item.name}
               href={item.href}
-              className="text-gray-300 hover:text-gray-500"
+              className="text-gray-300 hover:text-indigo-500"
               target="_blank"
             >
               <span className="sr-only">{item.name}</span>
