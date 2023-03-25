@@ -70,10 +70,8 @@ export default function Example() {
               Get in touch
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci
-              molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-              Arcu sed malesuada et magna.
-            </p>
+              Available for freelance work. If you have a project you&apos;d like to talk about, feel free to reach out. </p>
+              <p className="mt-6 text-lg leading-8 text-gray-300">I&apos;m also available for remote part-time work. Spring 2024 is when I&apos;ll be able to start full-time with a company.</p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
@@ -84,9 +82,7 @@ export default function Example() {
                   />
                 </dt>
                 <dd>
-                  545 Mavis Island
-                  <br />
-                  Chicago, IL 99191
+                  Tampa, Florida
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -99,7 +95,7 @@ export default function Example() {
                 </dt>
                 <dd>
                   <a className="hover:text-white" href="tel:+1 (555) 234-5678">
-                    +1 (555) 234-5678
+                    760-889-8272
                   </a>
                 </dd>
               </div>
@@ -114,9 +110,9 @@ export default function Example() {
                 <dd>
                   <a
                     className="hover:text-white"
-                    href="mailto:hello@example.com"
+                    href="mailto:hunter.nunnery@yahoo.com"
                   >
-                    hello@example.com
+                    hunter.nunnery@yahoo.com
                   </a>
                 </dd>
               </div>

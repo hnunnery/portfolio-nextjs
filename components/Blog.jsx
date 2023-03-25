@@ -3,65 +3,65 @@ import Image from "next/image";
 const posts = [
   {
     id: 1,
-    title: "Boost your conversion rate",
+    title: "Get started with Next.js and Tailwind",
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    imageDescription: "example text",
+      "https://res.cloudinary.com/missionwebdev/image/upload/c_scale,q_auto:eco,w_400/v1679769225/FullStackApps/blogphoto1.jpg",
+    imageDescription: "man coding",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Front End", href: "#" },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
+      name: "Hunter Nunnery",
+      role: "Software Developer",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      imageDescription: "example text",
+        "https://res.cloudinary.com/missionwebdev/image/upload/c_scale,q_auto:eco,r_0,w_100/v1679769877/FullStackApps/headshot.jpg",
+      imageDescription: "author image",
     },
   },
   {
     id: 1,
-    title: "Boost your conversion rate",
+    title: "Java or JavaScript?",
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    imageDescription: "example text",
+    imageDescription: "computer desk",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Back End", href: "#" },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
+      name: "Hunter Nunnery",
+      role: "Software Developer",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      imageDescription: "example text",
+        "https://res.cloudinary.com/missionwebdev/image/upload/c_scale,q_auto:eco,r_0,w_100/v1679769877/FullStackApps/headshot.jpg",
+      imageDescription: "author image",
     },
   },
   {
     id: 1,
-    title: "Boost your conversion rate",
+    title: "React vs. Vue: Which is better for you?",
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    imageDescription: "example text",
+      "https://res.cloudinary.com/missionwebdev/image/upload/c_scale,q_auto:eco,w_400/v1679769228/FullStackApps/blogphoto3.jpg",
+    imageDescription: "two men working at computers",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Full Stack", href: "#" },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
+      name: "Hunter Nunnery",
+      role: "Software Developer",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      imageDescription: "example text",
+        "https://res.cloudinary.com/missionwebdev/image/upload/c_scale,q_auto:eco,r_0,w_100/v1679769877/FullStackApps/headshot.jpg",
+      imageDescription: "author image",
     },
   },
 ];
@@ -89,8 +89,8 @@ export default function Example() {
                   src={post.imageUrl}
                   alt={post.imageDescription}
                   className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-                  width={40}
-                  height={40}
+                  width={400}
+                  height={270}
                 />
                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-500/10" />
               </div>
