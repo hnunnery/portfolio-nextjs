@@ -44,7 +44,7 @@ export default function Example() {
               </div>
               <dt className="mt-4 font-semibold text-white">Weekly articles</dt>
               <dd className="mt-2 leading-7 text-gray-400">
-                Non laboris consequat cupidatat laborum magna. Eiusmod non irure
+                Non laboris cupidatat laborum magna. Eiusmod non irure
                 cupidatat duis commodo amet.
               </dd>
             </div>
