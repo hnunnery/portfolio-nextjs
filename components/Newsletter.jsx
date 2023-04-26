@@ -58,7 +58,7 @@ export default function Example() {
               <dt className="mt-4 font-semibold text-white">No spam</dt>
               <dd className="mt-2 leading-7 text-gray-400">
                 Officia excepteur ullamco ut sint duis proident non adipisicing.
-                Voluptate incididunt anim.
+                Voluptate incididunt.
               </dd>
             </div>
           </dl>
