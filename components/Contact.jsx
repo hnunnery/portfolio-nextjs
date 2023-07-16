@@ -3,8 +3,67 @@ import {
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import { useForm, ValidationError } from "@formspree/react";
 
-export default function Example() {
+export default function Contact() {
+  const [state, handleSubmit] = useForm("mbjvlrjo");
+
+  if (state.succeeded) {
+    return (
+      <div className="relative isolate px-6 py-36 sm:py-72 lg:px-8 bg-[#111]">
+        <svg
+          className="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+          aria-hidden="true"
+        >
+          <defs>
+            <pattern
+              id="1d4240dd-898f-445f-932d-e2872fd12de3"
+              width={200}
+              height={200}
+              x="50%"
+              y={0}
+              patternUnits="userSpaceOnUse"
+            >
+              <path d="M.5 200V.5H200" fill="none" />
+            </pattern>
+          </defs>
+          <svg x="50%" y={0} className="overflow-visible fill-gray-800/20">
+            <path
+              d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
+              strokeWidth={0}
+            />
+          </svg>
+          <rect
+            width="100%"
+            height="100%"
+            strokeWidth={0}
+            fill="url(#1d4240dd-898f-445f-932d-e2872fd12de3)"
+          />
+        </svg>
+        <div
+          className="absolute inset-x-0 top-10 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
+          aria-hidden="true"
+        >
+          <div
+            className="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#ff7f00] to-[#ff7f00] opacity-20"
+            style={{
+              clipPath:
+                "polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)",
+            }}
+          />
+        </div>
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            Form Submitted Successfully
+          </h2>
+          <p className="mt-4 text-lg text-primary">
+            Thanks for contacting me! I will get back to you soon.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="relative isolate bg-gray-900 py-6" id="contact">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -70,8 +129,13 @@ export default function Example() {
               Get in touch
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Available for freelance work. If you have a project you&apos;d like to talk about, feel free to reach out. </p>
-              <p className="mt-6 text-lg leading-8 text-gray-300">I&apos;m also available for remote part-time work. Spring 2024 is when I&apos;ll be able to start full-time with a company.</p>
+              Available for freelance work. If you have a project you&apos;d
+              like to talk about, feel free to reach out.{" "}
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-300">
+              I&apos;m also available for remote part-time work. Spring 2024 is
+              when I&apos;ll be able to start full-time with a company.
+            </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
@@ -81,9 +145,7 @@ export default function Example() {
                     aria-hidden="true"
                   />
                 </dt>
-                <dd>
-                  Tampa, Florida
-                </dd>
+                <dd>Tampa, Florida</dd>
               </div>
               <div className="flex gap-x-4">
                 <dt className="flex-none">
